@@ -1,16 +1,13 @@
-# DECC 2050 CALCULATOR TOOL
+# BD2050 CALCULATOR
 
-A web interface to the www.decc.gov.uk 2050 energy and climate change calculator
+A web interface (http://calc.bd2050.org) to the 2050 energy, emissions and landuse calculator for Bangladesh, developed at the School of Engineering, Cardiff University, UK.
 
 Further detail on the project:
-http://www.decc.gov.uk/2050
+http://www.bd2050.org/
 
 Canonical source:
-http://github.com/decc/twenty-fifty
+http://github.com/mmourshed/twenty-fifty
 
-## FOR AN OLDER VERSION
-
-There is an older version of this code, that makes use of Highcharts and coffeescript, and has the model stored in a separate gem. If you would like that version, then it is on the oldHighCharts branch of this repository. You can get it at https://github.com/decc/twenty-fifty/tree/oldHighcharts
 
 # INSTALATION
 
