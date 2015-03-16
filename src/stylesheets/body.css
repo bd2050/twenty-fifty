@@ -1,0 +1,44 @@
+html,body { height:100%; }
+
+body {
+  font-family: Helvetica, 'Droid Sans', Lato, 'Source Sans Pro', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0; 
+  background-color: rgb(233,234,237);
+}
+
+#svgWarn {
+  display: none;
+  padding: 10px;
+  text-align: center;
+  background-color: #faa; }
+
+#calculating {
+  font-size: 0.72em;
+  position: absolute;
+  width: 100%;
+  top: 150px;
+  left: 0px;
+  text-align: center;
+  z-index: 10; }
+
+#calculating span {
+  padding: 30px;
+  font-weight: 1em;
+  background-color: orange; 
+  border-width: 0px;
+  border-style: solid;
+  border-color: RGB(224,224,231);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px white;
+ }
+
+#results {
+  overflow: hidden; }
+
+#snippets {
+  display: none;
+}

@@ -1,0 +1,45 @@
+#footer {
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 0.72em; 
+  background-color: black;
+  border-top: solid #159d45 2px; 
+  height: 100%;
+  color: grey;
+}
+
+#footer a {
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;}
+
+ #footer a:hover {
+    color: orange;
+    text-decoration: none; }
+
+#footer #social{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  margin-left: 2.5%;
+  width: 30%;
+  float: left;
+}
+
+#footer #copyright{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  margin-left: 2.5%;
+  width: 60%;
+  float: left;
+}
+
+#footer table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px 0px;
+}

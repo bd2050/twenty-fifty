@@ -1,0 +1,239 @@
+svg {
+  overflow: visible; }
+
+.chart {
+  padding-top: 5px;
+  border: 0;
+  margin: 0px;
+  margin-left: 1%;
+  width: 98%;
+  margin-bottom: 0px;
+  float: left; }
+
+.chart rect.backgroundrect {
+  fill: #fff; }
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges; }
+
+.charttitle {
+  text-anchor: middle;
+  font-size: .9em; 
+  font-weight: bold;
+}
+
+#unzoom {
+  text-anchor: middle;
+  font-size: 1em;
+  text-decoration: underline;
+  fill: #00f;
+  cursor: pointer; }
+
+text.target {
+  text-anchor: middle;
+  font-size: 0.72em; }
+
+g.drawing {
+  pointer-events: all; }
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px; }
+
+.axis text {
+  font-size: 0.72em;
+  fill: #000; }
+
+.axislabel {
+  text-anchor: end;
+  font-size: 0.72em; }
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 3px; }
+
+.linelabel {
+  font-size: 0.72em;
+  cursor: default; }
+
+.area {
+  fill-opacity: 1; }
+
+path.total {
+  stroke: black;
+  stroke-width: 2px;
+  fill: none; }
+
+text.seriesValue {
+  font-size: 0.72em;
+  text-anchor: middle; }
+
+path.total.hover {
+  stroke-width: 3px; }
+
+path.hover {
+  stroke: black;
+  stroke-width: 1px; }
+
+.linelabel.hover {
+  fill: black !important;
+  font-weight: bold; }
+
+.labelbackground {
+  fill: white; }
+
+g.context path {
+  fill: grey;
+  fill-opacity: 0.02; }
+
+.environmentalheat {
+  fill: #c7c728; }
+
+.gas {
+  fill: #660066; }
+
+.importedgas {
+  fill: #79187f; 
+}
+
+.coal {
+  fill: #000000; }
+
+.importedcoal {
+  fill: #393939; }
+
+.oil {
+  fill: #00782A; }
+
+.importedoil {
+  fill: #009636; }
+
+.bioenergy {
+  fill: #81b51a; }
+
+.importedbioenergy {
+  fill: #90c91d; }
+
+.environmentalheat {
+  fill: #ff0000; }
+
+.geothermal {
+  fill: #B36305; }
+
+.h2 {
+  fill: #ff0000; }
+
+.hydro {
+  fill: #0099CC; }
+
+.nuclear {
+  fill: #EE7C0E; }
+
+.offshorewind {
+  fill: #006992; }
+
+.onshorewind {
+  fill: #00a2e1; }
+
+.solar {
+  fill: #FFD300; }
+
+text.solar {
+  fill: #be9d00; }
+
+.tidal {
+  fill: #ff0000; }
+
+.wave {
+  fill: #003688; }
+
+.wind {
+  fill: #0098D4; }
+
+.ccs {
+  fill: #00A4A7; }
+
+.conventional {
+  fill: #660066; }
+
+.tidalandwave {
+  fill: #003688; }
+
+.electricity {
+  fill: #0064F5; }
+
+.transport {
+  fill: #F3A9BB; }
+
+.heatingcooling {
+  fill: #E32017; }
+
+.industry {
+  fill: #A0A5A9; }
+
+.lightingappliances {
+  fill: #FFD300; }
+
+text.lightingappliances {
+  fill: #be9d00; }
+
+.carboncapture {
+  fill: #00A4A7; }
+
+.lulucf {
+  fill: #ff0000; }
+
+.fuelcombustion {
+  fill: #95CDBA; }
+
+.aviationandshipping {
+  fill: #CC9999; }
+
+.waste {
+  fill: #ff0000; }
+
+.agriculture {
+  fill: #84B817; }
+
+.commercialheat {
+  fill: #ff0000; }
+
+.commerciallight {
+  fill: #ff0000; }
+
+.districtheating {
+  fill: #ff0000; }
+
+.domesticfreight {
+  fill: #ff0000; }
+
+.domesticlight {
+  fill: #ff0000; }
+
+.domesticpassengertransport {
+  fill: #ff0000; }
+
+.domesticheat {
+  fill: #ff0000; }
+
+circle.target {
+  fill: #000;
+  stroke: #fff;
+}
+
+g.targetlabel text {
+  font-size: 0.72em;
+}
+
+g.targetlabel line {
+  stroke: #ccc;
+  stroke-thickness: 1;
+}
+
+tr.primary_energy_notes {
+  display: none;
+}

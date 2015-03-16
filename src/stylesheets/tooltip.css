@@ -1,0 +1,11 @@
+#tooltip {
+  display: none;
+  background-color: #90EE90;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px 10px 0px 10px;
+  box-shadow: 0 0 5px #888;
+  font-size: 12px;
+  width: 14em;
+  padding: 10px;
+  z-index: 10000; }
